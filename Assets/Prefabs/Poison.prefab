@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 4839051116125416120}
   m_Layer: 0
   m_Name: Poison
-  m_TagString: Untagged
+  m_TagString: Poison
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -97,7 +97,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a9e5282ea5d03e468d9774b994867dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ballController: {fileID: 0}
 --- !u!136 &4839051116125416120
 CapsuleCollider:
   m_ObjectHideFlags: 0

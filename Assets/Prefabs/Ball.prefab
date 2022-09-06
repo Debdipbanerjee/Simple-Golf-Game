@@ -130,7 +130,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 410522010081274030}
   stopVelocity: 0.2
-  shotPower: 15
+  shotPower: 20
   maxPower: 1
 --- !u!114 &1727072601
 MonoBehaviour:

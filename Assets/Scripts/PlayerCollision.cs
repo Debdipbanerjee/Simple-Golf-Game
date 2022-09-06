@@ -30,14 +30,14 @@ public class PlayerCollision : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.name == "Powerup")
+        if (other.CompareTag("Powerup"))
         {
             ballController.shotPower *= 2;
             Destroy(other.gameObject);
 
         }
 
-        if (other.name == "Poison")
+        if (other.CompareTag("Poison"))
         {
             ballController.shotPower /= 2;
             Destroy(other.gameObject);

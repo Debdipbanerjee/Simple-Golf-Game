@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Danger
+  - Powerup
+  - Poison
   layers:
   - Default
   - TransparentFX
