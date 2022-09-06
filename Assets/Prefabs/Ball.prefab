@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 410522010081274031}
   - component: {fileID: 410522010081274030}
   - component: {fileID: 410522010081274029}
+  - component: {fileID: 1727072601}
   m_Layer: 0
   m_Name: Ball
   m_TagString: Untagged
@@ -129,5 +130,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 410522010081274030}
   stopVelocity: 0.2
-  shotPower: 40
+  shotPower: 15
   maxPower: 1
+--- !u!114 &1727072601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 410522010081274028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dfbb5d5c68f9574e87f5415e3e7ba6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ballController: {fileID: 410522010081274029}
